@@ -1,0 +1,45 @@
+[
+    {
+        "id": "57211",
+        "name": "Murugan Idli Shop",
+        "address": "46, Anna Nagar, Chennai, Tamil Nadu",
+        "cuisines": "South Indian",
+        "rating": "4.5",
+        "reviews": "998",
+        "feature_image": "https://b.zmtcdn.com/data/reviews_photos/081/6ed1609b97a184fcf604c126e724a081_1476178734.jpg?output-format=webp",
+        "thumbnail_image": "https://b.zmtcdn.com/data/reviews_photos/081/6ed1609b97a184fcf604c126e724a081_1476178734.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "menu": [
+            {
+                "id": 1,
+                "name": "Idli",
+                "desc": "Steamed rice cakes served with chutney and sambar.",
+                "price": 60
+            },
+            {
+                "id": 2,
+                "name": "Mini Tiffin",
+                "desc": "A combination of idli, dosa, pongal, vada, and sweet, served with chutney and sambar.",
+                "price": 150
+            },
+            {
+                "id": 3,
+                "name": "Masala Dosa",
+                "desc": "Crispy dosa filled with spicy mashed potatoes.",
+                "price": 90
+            },
+            {
+                "id": 4,
+                "name": "Pongal",
+                "desc": "A savory rice and lentil dish cooked with ghee, pepper, and cumin.",
+                "price": 70
+            },
+            {
+                "id": 5,
+                "name": "Vada",
+                "desc": "Crispy lentil donuts served with chutney and sambar.",
+                "price": 50
+            }
+        ]
+    }
+]
+

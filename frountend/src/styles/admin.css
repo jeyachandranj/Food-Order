@@ -1,0 +1,144 @@
+
+
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-input, .form-button {
+    display: block;
+    width: calc(100% - 22px);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.form-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
+
+.form-title {
+    margin-top: 30px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.menu-item-input {
+    flex: 1;
+}
+
+.dashboard {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurant-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.restaurant-card button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restaurant-card button:hover {
+    background-color: #c82333;
+}
+
+
+.dashboard-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.order-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.order-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.order-table th,
+.order-table td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Border color */
+}
+
+.order-table th {
+    background-color: #f2f2f2; /* Table header background color */
+    font-weight: bold;
+    text-align: left;
+}
+
+.order-table td {
+    text-align: left;
+}
+
+.order-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+.order-table tbody tr:hover {
+    background-color: #f2f2f2; /* Hover row background color */
+}

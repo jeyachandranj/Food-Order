@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+	
+}
+
+.maincart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#menubar {
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 1s ease-in-out;
+}
+
+#menu-title {
+    color: #212b2b;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    animation: fadeInLeft 1.5s ease-in-out;
+}
+
+.sort-option {
+    margin-top: 3px;
+}
+
+#sort {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    animation: fadeInRight 1.5s ease-in-out;
+}
+
+#sort-metrics {
+    padding-left: 5px;
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+#sort-metrics:hover {
+    border-color: #6a11cb;
+}
+
+.cart {
+    margin: 20px;
+    padding: 20px;
+    background: #e9e6ec;
+    box-shadow: 0px 0px 15px 6px #283e530c;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cart:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px 6px #283e530c;
+}
+
+.name {
+    margin-top: 12px;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    height: 70px;
+    display: flex;
+	color: black;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.profile {
+    height: 35px;
+    width: 35px;
+    margin-top: 2px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.profile:hover {
+    transform: scale(1.1);
+}
+
+#hotel-title {
+    max-width: 180px;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+div.cart p {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 180px;
+    transition: all 0.3s ease;
+}
+
+div.cart p:hover {
+    text-overflow: clip;
+    white-space: normal;
+    word-break: break-all;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
