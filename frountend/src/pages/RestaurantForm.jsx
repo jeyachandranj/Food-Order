@@ -34,7 +34,7 @@ const RestaurantForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:5000/api/restaurants', formData)
+        axios.post('https://food-order-1-qd6t.onrender.com/api/restaurants', formData)
             .then(response => {
                 console.log(response.data);
             })

@@ -67,7 +67,7 @@ class Orders extends React.Component {
             quantity: this.state.quantity,
             total: this.state.total
         };
-        axios.post('http://localhost:5000/api/orders', order)
+        axios.post('https://food-order-1-qd6t.onrender.com/api/orders', order)
             .then(response => {
                 alert('Order placed successfully');
             })

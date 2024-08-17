@@ -6,7 +6,7 @@ const AdminDashboard = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/orders')
+        axios.get('https://food-order-1-qd6t.onrender.com/api/orders')
             .then(response => {
                 setOrders(response.data);
             })

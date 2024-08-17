@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors("*"));
 
-mongoose.connect('mongodb://localhost:27017/restaurantdb', {
+mongoose.connect('mongodb+srv://jeyachandranj:jj.jeyan@cluster0.pe8ib.mongodb.net/food', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
